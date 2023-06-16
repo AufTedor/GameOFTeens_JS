@@ -6,21 +6,17 @@
   border: none;
   box-sizing: border-box;
 }
-
 a {
   text-decoration: none;
 }
-
 ul,
 ol,
 li {
   list-style: none;
 }
-
 img {
   vertical-align: top;
 }
-
 h1,
 h2,
 h3,
@@ -30,40 +26,41 @@ h6 {
   font-weight: inherit;
   font-size: inherit;
 }
-
 html,
 body {
   height: 100%;
   line-height: 1;
 }
 
-[class*=__container] {
+[class*="__container"] {
   max-width: 1280px;
   margin: 0 auto;
   padding: 0px 15px;
 }
 
 @media (max-width: 1279.98px) {
-  [class*=__container] {
+  [class*="__container"] {
     max-width: 1200px;
   }
 }
+
 @media (max-width: 1199.98px) {
-  [class*=__container] {
+  [class*="__container"] {
     max-width: 970px;
   }
 }
 @media (max-width: 990.98px) {
-  [class*=__container] {
+  [class*="__container"] {
     max-width: 750px;
   }
 }
 @media (max-width: 767.98px) {
-  [class*=__container] {
+  [class*="__container"] {
     max-width: none;
     padding: 0px 15px;
   }
 }
+
 body {
   font-family: Rubik;
 }
@@ -75,19 +72,22 @@ body {
   width: 100%;
   z-index: 100000;
 }
-
 .header__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 90px;
 }
-
+.header__logo {
+}
+.header__nav {
+}
 .header__list {
   display: flex;
   gap: 40px;
 }
-
+.header__item {
+}
 .header__link {
   font-family: "Rubik";
   font-style: normal;
@@ -95,9 +95,9 @@ body {
   font-size: 20px;
   line-height: 24px;
   /* identical to box height */
+
   color: #ffffff;
 }
-
 .header__btn {
   display: flex;
   align-items: center;
@@ -107,6 +107,7 @@ body {
   font-size: 16px;
   line-height: 19px;
   /* identical to box height */
+
   color: #171717;
   background: #15ff10;
   border-radius: 15px;
@@ -119,7 +120,6 @@ body {
   font-size: 24px;
   padding-right: 7px;
 }
-
 #add:before {
   font-family: "icomoon";
   content: "\e9bf";
@@ -132,15 +132,17 @@ body {
   background-repeat: no-repeat;
   height: 300px;
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   background-size: 100vw;
 }
-
 .intro__container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+.intro__title {
+}
+.intro__subtitle {
 }
