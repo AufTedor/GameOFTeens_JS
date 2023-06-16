@@ -144,3 +144,24 @@ body {
   justify-content: center;
   text-align: center;
 }
+.intro__title{
+
+  width: 403px;
+  height: 76px;
+  left: 438px;
+  padding-top: 147px;
+  font-weight: 600;
+  font-size: 64px;
+  color: #15FF10;
+}
+.intro__subtitle{
+width: 395px;
+height: 76px;
+left: 442px;
+padding-top: 65px;
+font-weight: 600;
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+color: #FFFFFF
+}
