@@ -130,7 +130,7 @@ body {
 .intro {
   background-image: url("../img/intro__bg.jpg");
   background-repeat: no-repeat;
-  height: 300px;
+  height: 490px;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -164,4 +164,36 @@ font-size: 32px;
 line-height: 38px;
 text-align: center;
 color: #FFFFFF
+}
+#chel{
+  position: absolute;
+  width: 431px;
+  height: 478px;
+  left:500px;
+  top:352px;
+}
+#welc{
+  position: absolute;
+width: 431px;
+height: 76px;
+left: 1000px;
+top: 525px;
+font-weight: 600;
+font-size: 32px;
+line-height: 38px;
+
+color: #171717;
+
+}
+#txt{
+  position: absolute;
+width: 431px;
+height: 224px;
+left: 1000px;
+top: 606px;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+
+color: #171717;
 }
