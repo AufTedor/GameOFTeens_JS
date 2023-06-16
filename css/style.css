@@ -169,8 +169,8 @@ color: #FFFFFF
   position: absolute;
   width: 431px;
   height: 478px;
-  left:500px;
-  top:352px;
+  left:26.5%;
+  top:36%;
 }
 #welc{
   position: absolute;
@@ -196,4 +196,23 @@ font-size: 24px;
 line-height: 28px;
 
 color: #171717;
+}
+#spacebg{
+  width: 100%;
+  position: absolute;
+  top:355px;  
+}
+.Astronaut{
+  position: absolute;
+width: 328px;
+height: 450px;
+top: 1335px;
+
+}
+#As1{
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  right: 311px;
+}
+#As2{
+  left: 328px;
 }
