@@ -216,3 +216,40 @@ top: 1335px;
 #As2{
   left: 328px;
 }
+#stars{
+  position: absolute;
+  width: 362px;
+height: 161px;
+left: 497px;
+top: 1961px;
+}
+.reg{
+  width: 546px;
+  position: absolute;
+  left: 1063px;
+}
+#h_reg{
+height: 38px;
+top: 2111px;
+font-weight: 600;
+font-size: 32px;
+line-height: 38px;
+}
+#p_reg{
+height: 196px;
+top: 2159px;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+}
+#nyzbo{
+  position: absolute;
+width: 314px;
+height: 28px;
+left: 550px;
+top: 2321px;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+color: #7D7D7D;
+}
