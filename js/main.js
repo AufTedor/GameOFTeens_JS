@@ -37,11 +37,11 @@ function Login() {
 let currBtn = "btn-1",
     currPage = "page-1"
 
-function SetTab(btn, page) {
+function SetTab(btn, page) {document.getElementById(currBtn).classList.remove("active");
+    document.getElementById(currPage).classList.remove("active");
     document.getElementById(btn).classList.add("active");
     document.getElementById(page).classList.add("active");
-    document.getElementById(currBtn).classList.remove("active");
-    document.getElementById(currPage).classList.remove("active");
+    
     currBtn = btn;
     currPage = page;
 }
