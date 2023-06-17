@@ -33,5 +33,4 @@ function closePop() {
 
 function Login() {
    closePop();
-   sessionStorage.add(isUser, true);
 }

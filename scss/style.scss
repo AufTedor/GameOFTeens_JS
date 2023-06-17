@@ -311,6 +311,11 @@ body {
     position: absolute;
     bottom: 50px;
   }
+  .chat__astronaut {
+    img {
+      transform: scaleX(-1);
+    }
+  }
 }
 
 .registr {
