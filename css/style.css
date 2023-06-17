@@ -130,7 +130,7 @@ body {
 .intro {
   background-image: url("../img/intro__bg.jpg");
   background-repeat: no-repeat;
-  height: 490px;
+  height: 300px;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -144,112 +144,150 @@ body {
   justify-content: center;
   text-align: center;
 }
-.intro__title{
 
-  width: 403px;
-  height: 76px;
-  left: 438px;
-  padding-top: 147px;
-  font-weight: 600;
-  font-size: 64px;
-  color: #15FF10;
-}
-.intro__subtitle{
-width: 395px;
-height: 76px;
-left: 442px;
-padding-top: 65px;
-font-weight: 600;
-font-size: 32px;
-line-height: 38px;
-text-align: center;
-color: #FFFFFF
-}
-#chel{
-  position: absolute;
-  width: 431px;
-  height: 478px;
-  left:26.5%;
-  top:36%;
-}
-#welc{
-  position: absolute;
-width: 431px;
-height: 76px;
-left: 1000px;
-top: 525px;
-font-weight: 600;
-font-size: 32px;
-line-height: 38px;
-
-color: #171717;
-
-}
-#txt{
-  position: absolute;
-width: 431px;
-height: 224px;
-left: 1000px;
-top: 606px;
-font-weight: 400;
-font-size: 24px;
-line-height: 28px;
-
-color: #171717;
-}
-#spacebg{
+.welc {
+  height: 1500px;
+  background-image: url("../img/bg2.png");
+  background-repeat: no-repeat;
   width: 100%;
-  position: absolute;
-  top:355px;  
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: 100vw 1500px;
 }
-.Astronaut{
-  position: absolute;
-width: 328px;
-height: 450px;
-top: 1335px;
 
+.welc__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 400px;
 }
-#As1{
-  transform: matrix(-1, 0, 0, 1, 0, 0);
-  right: 311px;
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
 }
-#As2{
-  left: 328px;
+
+.about__img {
+  width: 443px;
+  height: 478px;
+  position: relative;
 }
-#stars{
+.about__img img {
   position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.about__body {
+  width: 440px;
+}
+
+.about__title {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  padding-bottom: 5px;
+  padding-top: 50px;
+  color: #171717;
+}
+
+.about__text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #171717;
+}
+
+.welc__chat {
+  display: flex;
+}
+
+.body-chat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.astro-1 .chat__stars {
+  position: absolute;
+  top: -53px;
+}
+
+.chat__astro {
+  position: relative;
+}
+
+.chat__astronaut {
+  width: 328px;
+  height: 450px;
+  position: relative;
+  z-index: 10;
+}
+.chat__astronaut img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.chat__stars {
   width: 362px;
-height: 161px;
-left: 497px;
-top: 1961px;
+  height: 161px;
 }
-.reg{
-  width: 546px;
+.chat__stars img {
   position: absolute;
-  left: 1063px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
-#h_reg{
-height: 38px;
-top: 2111px;
-font-weight: 600;
-font-size: 32px;
-line-height: 38px;
+
+.body-chat__item {
+  background: #15ff10;
+  box-shadow: 0px 4px 15px rgba(21, 255, 16, 0.21);
+  padding: 15px 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
-#p_reg{
-height: 196px;
-top: 2159px;
-font-weight: 400;
-font-size: 24px;
-line-height: 28px;
+.body-chat__item p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
 }
-#nyzbo{
+.body-chat__item img {
   position: absolute;
-width: 314px;
-height: 28px;
-left: 550px;
-top: 2321px;
-font-weight: 500;
-font-size: 24px;
-line-height: 28px;
-color: #7D7D7D;
+  left: 22px;
+  top: 58px;
+}
+.body-chat__item.right > img {
+  position: absolute;
+  left: auto;
+  right: 11px;
+  top: 58px;
+  transform: scaleX(-1);
+}
+
+.astro-2 .chat__stars {
+  position: absolute;
+  bottom: 50px;
 }
