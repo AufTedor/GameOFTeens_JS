@@ -349,7 +349,7 @@ body {
   transition: all 0.3s ease 0s;
   &::before {
     font-family: "icomoon";
-    content: "\e9bf";
+    content: "\e917";
     font-size: 32.5px;
     padding-right: 176px;
   }
@@ -399,4 +399,57 @@ body {
   color: #000000;
 }
 
-
+.proj {
+  padding-top: 80px;
+  padding-bottom: 145px;
+}
+.proj__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.proj__title {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+  padding-bottom: 7px;
+}
+.proj__text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #7d7d7d;
+  width: 567px;
+  padding-bottom: 37px;
+}
+.proj__link {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  color: #171717;
+  display: flex;
+  align-items: center;
+  &::before {
+    font-family: "icomoon";
+    content: "\e917";
+    font-size: 63px;
+    padding-right: 276px;
+  }
+  &:hover {
+    background: #17d814;
+  }
+  transition: all 0.3s ease 0s;
+  padding: 22px 356px 22px 22px;
+  background: #15ff10;
+  box-shadow: 0px 4px 15px rgba(21, 255, 16, 0.31);
+  border-radius: 15px;
+}
