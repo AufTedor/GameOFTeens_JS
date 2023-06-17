@@ -35,6 +35,7 @@ html,
 body {
   height: 100%;
   line-height: 1;
+  
 }
 
 [class*=__container] {
@@ -859,4 +860,7 @@ justify-content: center;
   position: absolute;
   left: 22px;
   bottom: -20px;
+}
+*{
+  cursor:url('../img/cursor.png'), default ;
 }
