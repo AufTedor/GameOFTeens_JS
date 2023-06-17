@@ -396,7 +396,10 @@ body {
   font-weight: 600;
   font-size: 32px;
   line-height: 38px;
+<<<<<<< HEAD
   /* identical to box height */
+=======
+>>>>>>> 2891c477247c7366afa5f87dfd95193362cc7233
   padding-bottom: 10px;
   color: #000000;
 }
