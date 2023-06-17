@@ -817,3 +817,6 @@ body {
   color: #7d7d7d;
   height: 200px;
 }
+*{
+cursor:url('../img/cursor.png'), default ;
+}
