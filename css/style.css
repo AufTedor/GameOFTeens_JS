@@ -391,12 +391,10 @@ body {
 }
 
 .registr__title {
-  font-family: "Rubik";
-  font-style: normal;
   font-weight: 600;
   font-size: 32px;
   line-height: 38px;
-  /* identical to box height */
+  text-align: center;
   padding-bottom: 10px;
   color: #000000;
 }
