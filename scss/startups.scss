@@ -1,0 +1,251 @@
+.news {}
+
+.news__container {
+    position: relative;
+}
+
+.news__title {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+    color: #000000;
+    text-align: center;
+    position: absolute;
+    background-color: #fff;
+    left: 50%;
+    margin-left: -190px;
+    top: -30px;
+    padding: 20px 42px;
+    border-radius: 1000px;
+}
+
+.news__items {
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.news__item {
+    background: #FFFFFF;
+    border: 5px dashed #15FF10;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 259.75px;
+    height: 285.13px;
+}
+
+.news__img {
+    width: 95%;
+    height: 106.61px;
+    position: relative;
+    padding-top: 8px;
+    img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.news__text {
+    width: 90%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.tabs {
+    background-image: url("../img/bg5.png");
+    background-repeat: no-repeat;
+    height: 1616px;
+    background-size: 100vw;
+}
+
+.tabs__container {
+    padding-top: 180px;
+}
+
+.tabs__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.tabs__btn {
+    cursor: pointer;
+    padding: 20px 20px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    background: #15FF10;
+    border-radius: 10px;
+    &.active {
+        background-color: #249e22;
+    }
+}
+
+.tabs__body {
+    padding-top: 25px;
+}
+
+.tabs__items {}
+
+.tab {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    &.active {
+        display: flex;
+    }
+}
+
+.tab-item {
+    max-width: 1280px;
+    height: 365px;
+    left: 0px;
+    top: 1276px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    border-radius: 15px;
+}
+
+.tab-item__img {
+    width: 290px;
+    height: 290px;
+    position: relative;
+    img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.tab-item__body {
+    padding-left: 20px;
+    max-width: 60%;
+}
+
+.tab-item__label {}
+
+.tab-item__title {
+    h1 {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+        padding-bottom: 5px;
+    }
+    h2 {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+        color: #000000;
+    }
+    padding-bottom: 40px;
+}
+
+.tab-item__direct {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    padding-bottom: 15px;
+}
+
+.tab__item__link {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    a {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+    }
+    padding-bottom: 15px;
+}
+
+.tab-item__desc {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.like__img {}
+
+.tab-item__line {}
+
+.partners {}
+
+.partners__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.partners__title {
+    display: block;
+    width: 550px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+    color: #000000;
+    text-align: center;
+    padding: 20px 10px;
+    background-color: #15FF10;
+    position: relative;
+    img {
+        position: absolute;
+        left: 22px;
+        bottom: -20px;
+    }
+}
+
+.partners__body {
+    width: 1280px;
+    height: 574px;
+    position: relative;
+    img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+    }
+}
