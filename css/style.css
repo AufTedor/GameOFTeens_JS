@@ -813,3 +813,18 @@ body {
   color: #7d7d7d;
   height: 200px;
 }
+.slick-track{
+  display: flex;
+}
+.sliderimg{
+  margin-top: 30px;
+  margin-left: 20px;
+  width:230px;
+  height: 100px;
+}
+.slider__container{
+  
+  background-image: url("../img/sliderbk.png");
+  background-size: 300px 300px;
+  background-repeat: no-repeat;
+}
