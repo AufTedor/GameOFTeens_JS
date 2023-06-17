@@ -303,13 +303,12 @@ body {
 .body-chat__item img {
   position: absolute;
   left: 22px;
-  top: 58px;
+  bottom: -20px;
 }
 .body-chat__item.right > img {
   position: absolute;
   left: auto;
   right: 11px;
-  top: 58px;
   transform: scaleX(-1);
 }
 
@@ -317,10 +316,6 @@ body {
   position: absolute;
   bottom: 50px;
 }
-.astro-2 .chat__astronaut img {
-  transform: scaleX(-1);
-}
-
 .registr__container {
   padding-top: 40px;
   display: flex;

@@ -246,6 +246,7 @@ body {
 
 .chat__astro {
   position: relative;
+  z-index: 6;
 }
 
 .chat__astronaut {
@@ -295,26 +296,23 @@ body {
   img {
     position: absolute;
     left: 22px;
-    top: 58px;
+    bottom: -20px;
   }
   &.right > img {
     position: absolute;
     left: auto;
+    
     right: 11px;
-    top: 58px;
     transform: scaleX(-1);
   }
 }
 
 .astro-2 {
+  position: relative;
+  z-index: 6;
   .chat__stars {
     position: absolute;
     bottom: 50px;
-  }
-  .chat__astronaut {
-    img {
-      transform: scaleX(-1);
-    }
   }
 }
 
