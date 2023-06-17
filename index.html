@@ -8,10 +8,10 @@
       href="https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/icons.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
+  <body class="">
     <header class="header">
       <div class="header__container">
         <a href="" class="header__logo"><img src="img/logo.svg" alt="" /></a>
@@ -21,10 +21,10 @@
               <a href="startups.html" class="header__link">All Projects</a>
             </li>
             <li class="header__item">
-              <a href="" class="header__link header__btn" id="add">Add PRJ</a>
+              <div onclick="OpenAddPRJ()" class="header__link header__btn" id="add">Add PRJ</div>
             </li>
             <li class="header__item">
-              <a href="" class="header__link header__btn " id="log">Log in</a>
+              <div onclick="OpenLogIn()" class="header__link header__btn" id="log">Log in</div>
             </li>
           </ul>
         </nav>
@@ -42,29 +42,47 @@
       <section class="welc">
         <div class="welc__container">
           <div class="welc__about about">
-            <div class="about__img"><img src="img/01.png" alt=""></div>
+            <div class="about__img"><img src="img/01.png" alt="" /></div>
             <div class="about__body">
-              <h1 class="about__title">Ласкаво просимо 
-              до GoITeensLab </h1>
-              <p class="about__text">Тут ви зможете розмістити свої стартапи, знайти інвесторів та отримати можливість
-                 реалізувати свої ідеї. Не обмежуйте себе лише навчанням, ви можете бути підприємцем ще в зовсім молодому
-                  віці. Приєднуйтесь до <b>GoITeensLab</b> і розпочинайте свій шлях до успіху!</p>
+              <h1 class="about__title">Ласкаво просимо до GoITeensLab</h1>
+              <p class="about__text">
+                Тут ви зможете розмістити свої стартапи, знайти інвесторів та
+                отримати можливість реалізувати свої ідеї. Не обмежуйте себе
+                лише навчанням, ви можете бути підприємцем ще в зовсім молодому
+                віці. Приєднуйтесь до <b>GoITeensLab</b> і розпочинайте свій
+                шлях до успіху!
+              </p>
             </div>
           </div>
           <div class="welc__chat">
             <div class="chat__astro astro-1">
-              <div class="chat__astronaut"><img src="img/02.png" alt=""></div>
-              <div class="chat__stars"><img src="img/03.png" alt=""></div>
+              <div class="chat__astronaut"><img src="img/02.png" alt="" /></div>
+              <div class="chat__stars"><img src="img/03.png" alt="" /></div>
             </div>
             <div class="chat__body body-chat">
-              <div class="body-chat__item"><p>- Хей, ти чув про GoITeensLab?</p><img src="img/04.svg" alt=""></div>
-              <div class="body-chat__item right"><p>. . .</p><img src="img/04.svg" alt=""></div>
-              <div class="body-chat__item"><p>- Кажуть, там з легкістю можна виставляти свої ідеї та знаходити інвесторів!</p><img src="img/04.svg" alt=""></div>
-              <div class="body-chat__item right"><p>- Як ти розмовляєш в космосі?</p><img src="img/04.svg" alt=""></div>
+              <div class="body-chat__item">
+                <p>- Хей, ти чув про GoITeensLab?</p>
+                <img src="img/04.svg" alt="" />
+              </div>
+              <div class="body-chat__item right">
+                <p>. . .</p>
+                <img src="img/04.svg" alt="" />
+              </div>
+              <div class="body-chat__item">
+                <p>
+                  - Кажуть, там з легкістю можна виставляти свої ідеї та
+                  знаходити інвесторів!
+                </p>
+                <img src="img/04.svg" alt="" />
+              </div>
+              <div class="body-chat__item right">
+                <p>- Як ти розмовляєш в космосі?</p>
+                <img src="img/04.svg" alt="" />
+              </div>
             </div>
             <div class="chat__astro astro-2">
-              <div class="chat__astronaut"><img src="img/02.png" alt=""></div>
-              <div class="chat__stars"><img src="img/03.png" alt=""></div>
+              <div class="chat__astronaut"><img src="img/02.png" alt="" /></div>
+              <div class="chat__stars"><img src="img/03.png" alt="" /></div>
             </div>
           </div>
         </div>
@@ -72,14 +90,19 @@
       <section class="registr">
         <div class="registr__container">
           <div class="registr__reg">
-            <a href="" class="registr__link">Log in</a>
-            <a href="" class="registr__link">Sign Up</a>
+            <div onclick="OpenLogIn()" class="registr__link">Log in</div>
+            <div onclick="OpenSignUp()" class="registr__link">Sign Up</div>
             <p class="registr__label">Нужбо, швидше натискай!</p>
           </div>
           <div class="registr__body">
             <h1 class="registr__title">Інтуїтивно зрозуміла реєестрація</h1>
-            <p class="registr__text">Почни показувати свої ідеї прямо зараз! Легкий старт - легка робота. Динамічне оновлення нових ідей на головній сторонці тобі в цьому допоможуть. Не гай часу, можливо саме в цей момент велика компанія шукає талановитого підлітка, аби просунути 
-його в маси та дати життя новому проекту!</p>
+            <p class="registr__text">
+              Почни показувати свої ідеї прямо зараз! Легкий старт - легка
+              робота. Динамічне оновлення нових ідей на головній сторонці тобі в
+              цьому допоможуть. Не гай часу, можливо саме в цей момент велика
+              компанія шукає талановитого підлітка, аби просунути його в маси та
+              дати життя новому проекту!
+            </p>
           </div>
         </div>
       </section>
@@ -88,28 +111,104 @@
           <h1 class="proj__title">Подивіться остані оновлення!</h1>
           <p class="proj__text">можливо ви захочите підтримати чийсь стартап,
           або надихнувшись, створити свій!</p>
-          <a href="startups.html" class="proj__link">All Projects</a>
+          <a href="" class="proj__link">All Projects</a>
         </div>
       </section>
     </main>
     <footer class="footer">
       <div class="footer__container">
         <div class="footer__body">
-          <div class="footer__title"><img src="img/footer.svg" alt=""></div>
-          <div class="footer__text">Українська платформа для підліткового стартапу. Допомагаємо дізнатись світові про геніїв нашого часу та реалізувати їх ідеї/// </div>
+          <div class="footer__title"><img src="img/footer.svg" alt="" /></div>
+          <div class="footer__text">
+            Українська платформа для підліткового стартапу. Допомагаємо
+            дізнатись світові про геніїв нашого часу та реалізувати їх ідеї///
+          </div>
           <a href="" class="footer__button">Contact Us</a>
           <div class="footer__comm">©2023 GoITeensLab, LLC</div>
         </div>
         <nav class="footer__nav">
-          <a href="#" class="footer__logo"><img src="img/footer_logo.svg" alt=""></a>
+          <a href="#" class="footer__logo"
+            ><img src="img/footer_logo.svg" alt=""
+          /></a>
           <ul class="footer__list">
-            <li class="footer__item"><a href="" class="footer__link">All Projects</a></li>
-            <li class="footer__item"><a href="" class="footer__link">Login</a></li>
-            <li class="footer__item"><a href="" class="footer__link">Sign up</a></li>
-            <li class="footer__item"><a href="" class="footer__link">Add PRJ</a></li>
+            <li class="footer__item">
+              <a href="" class="footer__link">All Projects</a>
+            </li>
+            <li class="footer__item">
+              <div onclick="OpenLogIn()" class="footer__link">Login</div>
+            </li>
+            <li class="footer__item">
+              <div onclick="OpenSignUp()" class="footer__link">Sign up</div>
+            </li>
+            <li class="footer__item">
+              <div onclick="OpenAddPRJ()" class="footer__link">Add PRJ</div>
+            </li>
           </ul>
         </nav>
       </div>
     </footer>
+
+    <div class="pop-up" id="log-in">
+      <form action="">
+        <div onclick="closePop()" class="close__button"><img src="img/close.svg" alt=""></div>
+        <h1 class="pop-up__title">Login</h1>
+        <div class="pop-up__input-block">
+            <input class="pop-up__input" type="text" placeholder="Username" name="" id="" />
+            <input class="pop-up__input" type="text" placeholder="Password" name="" id="" />
+          <a href="https://www.youtube.com/watch?v=G510jeWiaV0" class="log-in__forgot">forgot password?</a>
+        </div>
+        <button onclick="Login()" class="pop-up__button">LOGIN</button>
+        <p class="pop-up__text">Or Sign up using</p>
+        <div class="pop-up__items">
+          <a href="https://www.youtube.com/watch?v=G510jeWiaV0" class="pop-up__item"><img src="img/05.png" alt="" /></a>
+          <a href="https://www.youtube.com/watch?v=G510jeWiaV0" class="pop-up__item"><img src="img/06.png" alt="" /></a>
+          <a href="https://www.youtube.com/watch?v=G510jeWiaV0" class="pop-up__item"><img src="img/07.png" alt="" /></a>
+        </div>
+        <p class="pop-up__text">Have not account yet?</p>
+        <a href="" class="pop-up__sign">SIGN UP!</a>
+      </form>
+    </div>
+
+    <div class="pop-up" id="sign-up">
+      <form action="">
+        <div onclick="closePop()" class="close__button"><img src="img/close.svg" alt=""></div>
+        <h1 class="pop-up__title">Sign Up</h1>
+        <div class="pop-up__input-block">
+            <input class="pop-up__input" type="text" placeholder="Username" name="" id="" />
+            <input class="pop-up__input" type="text" placeholder="Email" name="" id="" />
+            <input class="pop-up__input" type="text" placeholder="Password" name="" id="" />
+            <input class="pop-up__input" type="text" placeholder="Repeat " name="" id="" />
+        </div>
+        <button onclick="Login()" class="pop-up__button">Sign Up</button>
+        <p class="pop-up__text">Or Sign up using</p>
+        <div class="pop-up__items">
+          <a href="https://www.youtube.com/watch?v=G510jeWiaV0" class="pop-up__item"><img src="img/05.png" alt="" /></a>
+          <a href="https://www.youtube.com/watch?v=G510jeWiaV0" class="pop-up__item"><img src="img/06.png" alt="" /></a>
+          <a href="https://www.youtube.com/watch?v=G510jeWiaV0" class="pop-up__item"><img src="img/07.png" alt="" /></a>
+        </div>
+      </form>
+    </div>
+
+    <div class="pop-up" id="add-prj">
+      <form action="">
+        <div onclick="closePop()" class="close__button"><img src="img/close.svg" alt=""></div>
+        <h1 class="pop-up__title">Add PRJ</h1>
+        <div class="pop-up__input-block">
+            <input class="pop-up__input" type="text" placeholder="Title" name="" id="" />
+            <input class="pop-up__input" type="text" placeholder="Direction ( startup area )" name="" id="" />
+            <input class="pop-up__input" type="text" placeholder="Link" name="" id="" />
+            <input class="pop-up__input" type="text" placeholder="Budget " name="" id="" />
+            <div class="pop-up__image">
+              <div class="pop-up__img">Your photos or screens</div>
+              <div class="pop-up__img-button">Take from PC</div>
+            </div>
+            <textarea class="pop-up__textarea" name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <button onclick="Login()" class="pop-up__button">Sign Up</button>
+      </form>
+    </div>
+    </div>
+
+    <script src="js/main.js"></script>
   </body>
 </html>
