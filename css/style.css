@@ -828,3 +828,35 @@ body {
   background-size: 300px 300px;
   background-repeat: no-repeat;
 }
+.partners__container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.partners-body{
+  position: relative;
+   
+}
+
+.partners__body > img{
+width:1280px;
+  height:435px;
+ left:0;
+ width: 100%;
+ height: 100%;
+}
+.partners__title{
+  position: relative;
+  width: 555px;
+height: 87px;
+background-color: #15ff10;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.partners__title > img{
+  position: absolute;
+  left: 22px;
+  bottom: -20px;
+}
